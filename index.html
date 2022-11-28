@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sang's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/029f96b5a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!---------------------------- header ---------------------------->
+<div id="header">
+  <div class="container">
+    <nav>
+      <!-- <h1> <span>Sang.</span></h1> -->
+      <img src="images/logo1.png" class="logo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">SkillSet</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Software Engineer</p>
+      <h1 >Hi, I am <span1>Sangita </span1><br>Making and Breaking Stuff</br></h1>
+    </div>
+  </div>
+</div>
+
+
+<!---------------------------- about ---------------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/user.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Love building things from scratch and iterating through all
+         phases of the product development life-cycle, from concept to release.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('exp')">Experience</p>
+            <p class="tab-links" onclick="opentab('cert')">Certification/Projects</p>
+            <p class="tab-links"onclick="opentab('edu')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Python/Go/C++</span><br>scalable Infrastructure Solution.</li>
+            <li><span>CI/CD</span><br>Automate Software delivery process.</li>
+            <li><span>Cloud Computing</span><br>Develop IAAS/PAAS/SAAS.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="exp">
+          <ul>
+            <li><span>2018 - Current</span><br>Software Engineer at LinkedIn Corp.</li>
+            <li><span>2017</span><br>Intership at LinkedIn Corp.</li>
+            <li><span>2014 - 2016 Compting</span><br>Software Engineer @Tata Consultancy Services.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="cert">
+          <ul>
+            <li><span>2022</span><br>Technical Product Management: Building a Product Strategy.</li>
+            <li><span>2020</span><br>Critical Thinking for Better Judgment and Decision-Making.</li>
+            <li><span>2018</span><br>Design and Develop in decreasing latency in data plane.</li>
+            <li><span>2015 - 2016 </span><br>Design and develop end-to-end Self-Healing Network Systems.</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="edu">
+          <ul>
+            <li><span>MS in Telecommunication</span><br>University of Colorado, Boulder.</li>
+            <li><span>B.Tech in (ECE)</span><br>West Bengal University of Technology.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!---------------------------- skill set ---------------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Skill Set</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2> Software Development</h2>
+        <p>Let's make and break Stuff</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-sharp fa-solid fa-object-group"></i>
+        <h2> System Design</h2>
+        <p> Define the architecture, interfaces, and data for a system statishfying particular requirements</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-product-hunt"></i>
+        <h2> Product Case Study</h2>
+        <p>Develop analytical, creative, and problem-solving skills.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!---------------------------- PortFolio ---------------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Portfolio</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Github</h3>
+          <p>Checkout, Clone, Fork or Connect</p>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>LinkedIn</h3>
+          <p>Let's connect to LinkedIn</p>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>SHNS</h3>
+          <p>Demo version of Self Healing Network System</p>
+          <a href="#"><i class="fa-sharp fa-solid fa-dna"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="" class="btn">See More</a>
+  </div>
+</div>
+
+
+<!---------------------------- Contact ---------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i> sangitamaityxxxx@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i> 777-777-7777</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/sangita-maity-27273154/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/swagslaysang_m/"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/swagslaysang_m/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/sang-CV.pdf" class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name ="Name" placeholder="Your Name" required>
+          <input type="email" name ="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Mesage"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg">Hello</span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright   <i class="fa-regular fa-copyright"></i> Sangita  <i class="fa-solid fa-star"></i> </p>
+  </div>
+</div>
+
+
+<!---------------------------- On Click Script ---------------------------->
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+
+<!----------------------------  Contact Form Script ---------------------------->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbza3CYD-GPrcBEGVt243LbY2B7y_mGTYe1NreCeUDMo7pDw848kaS8oALfmzb40bhMIKQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Sucessfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
