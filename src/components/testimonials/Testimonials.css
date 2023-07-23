@@ -1,0 +1,84 @@
+/* Testimonials component styling */
+
+#testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 2rem 0;
+  }
+  
+  .slider-container {
+    background: var(--color-bg-variant);
+    border: 2px solid var(--color-bg-variant);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center; /* Center the content horizontally */
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  
+  .slider-container:hover {
+    background: transparent;
+    background-color: var(--color-primary-variant);
+    cursor: default;
+  }
+  
+  .slider-container h3 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+  }
+  
+  .slider-buttons {
+    display: flex;
+    flex-direction: column; /* Align buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 1rem;
+  }
+  
+  .slider-buttons button {
+    margin: 0.5rem 0; /* Add spacing between buttons */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slider-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles for Medium/Tablet Devices (max-width: 1024px) */
+  @media screen and (max-width: 1024px) {
+    .slider-container {
+      padding: 1.6rem 3.2rem; /* Adjust padding for smaller screens */
+    }
+  
+    .testimonial-image {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  
+    .testimonial-text {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Responsive Styles for Small/Mobile Devices (max-width: 600px) */
+  @media screen and (max-width: 600px) {
+    .slider-container {
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  
+    .testimonial-image {
+      height: 150px; /* Adjust height for smaller screens */
+    }
+  
+    .testimonial-text {
+      font-size: 0.8rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
